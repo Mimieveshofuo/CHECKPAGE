@@ -154,6 +154,12 @@ input[type='text']::placeholder{
     margin-left: 20px;
     color:#828282;
 }
+.angledown{
+    display: flex;
+    position: relative;
+    left: -36px;
+    background-color: #E0E0E0;
+}
 .saveQ{
     display: flex;
     align-items: center;
