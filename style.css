@@ -77,6 +77,8 @@ label{
 }
 .detail{
     margin-left: 30px;
+    width: 130px;
+    height: 130px;
 }
 .detail h1{
     color:  #4E5150;
@@ -92,9 +94,7 @@ label{
     align-items: center;
    
 }
-.card{
-    width: 7.5rem;
-}
+
 .input-content input{
     padding: 15px 45px;
     border: 1px solid #828282;
@@ -103,9 +103,6 @@ label{
       font-size:16px ;
    color: #828282;
    margin-top: 10px;
-}
-.name{
-    color: red;
 }
 .shipping-tag span{
     color:#333333;
@@ -135,7 +132,14 @@ input[type='text']::placeholder{
     color: #828282;
     font-size: 16px;
     display: flex;
+    font-weight: bold;
     align-items: center;
+}
+.name{
+    width: 100%;
+}
+.name input[type='text']::placeholder{
+    color: #333333;
 }
 .space{
     margin: 1rem 0;
